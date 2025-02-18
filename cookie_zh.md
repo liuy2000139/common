@@ -6,38 +6,38 @@ Cookie 是一种网络服务器存储在计算机或移动设备上的纯文本�
 
 CLA网站会在计算机或移动设备上存储 Cookie，我们启用 Cookie 的目的在于改善用户体验，包括：
 
-    1. 严格必要的 Cookie：当您使用网站时，Cookie 将确保您对该网站的访问尽可能顺利、安全；
-       - **a)** 账号 Cookie：access_token
-                <br/>
-                来源：CLA 网站
-                <br/>
-                到期时间：30分钟
-                <br/>
-                目的：维护用户登录会话
-    
-       - **b)** 账号 Cookie：csrf_token
-                <br/>
-                来源：CLA 网站
-                <br/>
-                到期时间：30分钟
-                <br/>
-                目的：防止跨站请求伪造攻击
-    
-       - **c)** Web 应用防火墙 Cookie ：HWWAFSESID，HWWAFSESTIME
-                <br/>
-                来源：华为云 Waf
-                <br/>
-                到期时间：会话
-                <br/>
-                目的：防止恶意攻击
-    
-       - **d)** oAuth2 登陆错误信息 Cookie ：error_code，error_msg
-                <br/>
-                来源：CLA 配置网站
-                <br/>
-                到期时间：30分钟
-                <br/>
-                目的：将登陆错误信息通知给用户
+1. 严格必要的 Cookie：当您使用网站时，Cookie 将确保您对该网站的访问尽可能顺利、安全；
+   - **a)** 账号 Cookie：access_token
+            <br/>
+            来源：CLA 网站
+            <br/>
+            到期时间：30分钟
+            <br/>
+            目的：维护用户登录会话
+
+   - **b)** 账号 Cookie：csrf_token
+            <br/>
+            来源：CLA 网站
+            <br/>
+            到期时间：30分钟
+            <br/>
+            目的：防止跨站请求伪造攻击
+
+   - **c)** Web 应用防火墙 Cookie ：HWWAFSESID，HWWAFSESTIME
+            <br/>
+            来源：华为云 Waf
+            <br/>
+            到期时间：会话
+            <br/>
+            目的：防止恶意攻击
+
+   - **d)** oAuth2 登陆错误信息 Cookie ：error_code，error_msg
+            <br/>
+            来源：CLA 配置网站
+            <br/>
+            到期时间：30分钟
+            <br/>
+            目的：将登陆错误信息通知给用户
 
 CLA网站不会将 Cookie 用于本声明所述目的之外的任何用途。您可根据自己的偏好管理或删除 Cookie。有关详情，请参见 [AboutCookies.org](https://www.aboutcookies.org/)。您可以清除计算机上保存的所有 Cookie，大部分网络浏览器都设有阻止 Cookie 的功能。但如果您这么做，则需要在每一次访问我们的网站时亲自更改用户设置。如需详细了解如何更改浏览器设置，请访问以下链接：[internet Explorer](https://support.microsoft.com/zh-cn/help/17442/windows-internet-explorer-delete-manage-cookies)、 [google Chrome](https://support.google.com/chrome/answer/95647)、 [mozilla Firefox](https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer?redirectlocale=en-US&redirectslug=Cookies)、 [safari](https://support.apple.com/kb/PH19214?locale=zh_CN) 和 [opera](https://help.opera.com/en/latest/security-and-privacy/)。
 
