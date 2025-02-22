@@ -5,16 +5,17 @@ We understand the importance of your privacy and fully respect it. If you have a
 #### 1. How We Collect Your Personal Data
 Personal data refers to the information that relates to an identified or identifiable individual. When you use the Contributor License Agreement Signing and Management ("CLA Sign") service, we will collect your personal data accordingly in the following circumstances. You may also obtain a quick understanding of how we collect and use personal data by reviewing the <span id="information-list">Personal Data Collection Overview</span>.
 
-    1. Corporate CLA Signing
-        When you sign a corporate CLA, we collect the name of the authorized representative, position, company name, email address, email verification code, phone number (optional), address (optional), fax number (optional), and signed CLA document.
-    2. Corporate Contributor Registration
-        When you register as a corporate contributor, we collect your name, email address, corporation, and email verification code.
-    3. Individual CLA Signing
-        When you sign an individual CLA, we collect your name, email address, and email verification code
-    4. Enterprise Administrator Login
-        When you log in as an enterprise administrator, we collect your account, password, and email address.
-    5.Community Administrator Login
-        When you log in as a community administrator, we collect your Gitee user name, Gitee organization name, GitHub user name, and GitHub organization name.
+1. Corporate CLA Signing
+    When you sign a corporate CLA, we collect the name of the authorized representative, position, company name, email address, email verification code, phone number (optional), address (optional), fax number (optional), and signed CLA document.
+2. Corporate Contributor Registration
+    When you register as a corporate contributor, we collect your name, email address, corporation, and email verification code.
+3. Individual CLA Signing
+    When you sign an individual CLA, we collect your name, email address, and email verification code
+4. Enterprise Administrator Login
+    When you log in as an enterprise administrator, we collect your account, password, and email address.
+5.Community Administrator Login
+    When you log in as a community administrator, we collect your Gitee user name, Gitee organization name, GitHub user name, and GitHub organization name.
+
 #### 2. How We Use Your Personal Data
 We will collect your personal data accordingly in the following circumstances:  
 (1) Providing you with the CLA Sign service, for example, to ensure that you have signed the CLA when you submit code on the source code hosting platform.  
