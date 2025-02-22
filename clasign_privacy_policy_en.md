@@ -4,7 +4,6 @@ We understand the importance of your privacy and fully respect it. If you have a
 
 #### 1. How We Collect Your Personal Data
 Personal data refers to the information that relates to an identified or identifiable individual. When you use the Contributor License Agreement Signing and Management ("CLA Sign") service, we will collect your personal data accordingly in the following circumstances. You may also obtain a quick understanding of how we collect and use personal data by reviewing the <span id="information-list">Personal Data Collection Overview</span>.
-
 1. Corporate CLA Signing
     When you sign a corporate CLA, we collect the name of the authorized representative, position, company name, email address, email verification code, phone number (optional), address (optional), fax number (optional), and signed CLA document.
 2. Corporate Contributor Registration
@@ -13,7 +12,7 @@ Personal data refers to the information that relates to an identified or identif
     When you sign an individual CLA, we collect your name, email address, and email verification code
 4. Enterprise Administrator Login
     When you log in as an enterprise administrator, we collect your account, password, and email address.
-5.Community Administrator Login
+5. Community Administrator Login
     When you log in as a community administrator, we collect your Gitee user name, Gitee organization name, GitHub user name, and GitHub organization name.
 
 #### 2. How We Use Your Personal Data
@@ -57,7 +56,7 @@ Your personal data will be stored on servers in the People's Republic of China. 
 This website, including its content and services, is primarily intended for adults. Individuals under the age of 14 may not use the services we provide without the consent of a parent or guardian. If personal data of minors is collected with prior consent of their parents or guardians, we will only use or disclose such data if permitted by law, explicitly consented to by their parents or guardians, or necessary for the protection of the minors. If we inadvertently collect personal data of an individual under the age of 14 without verified prior consent from the individual's parent or guardian, we will attempt to delete the data as soon as possible.
 #### 10. How This Statement Is Updated
 We may update this statement from time to time according to changes of our services or data processing methods. If we update this statement, we will publish the latest version of the statement on this website, and it will take effect immediately upon its release. You are advised to review this statement periodically for any changes. If we make any substantial changes to this statement, we will notify you through appropriate channels and obtain your consent.  
-#### 10. How to Contact Us
+#### 11. How to Contact Us
 If you have any questions, comments, or suggestions about your personal data or any matters related to this agreement, or exercise your rights related to personal data, please contact us at cla-contact@osinfra.cn.
 
 Last updated: February 2025
