@@ -1,0 +1,52 @@
+name: PR Review Check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    # 在PR打开、同步、重新打开时触发
+    branches:
+      - main
+      - master
+      - release/*
+
+jobs:
+  check-reviews:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Minimum Reviews
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const { data: reviews } = await github.rest.pulls.listReviews({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request.number
+            });
+
+            const approvedReviews = reviews.filter(
+              review => review.state === 'APPROVED'
+            );
+
+            if (approvedReviews.length < 1) {
+              core.setFailed('至少需要 1 个批准才能合并');
+            }
+
+      - name: Check Code Owners Review
+        if: contains(github.event.pull_request.labels.*.name, 'needs-codeowner')
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const codeOwners = ['团队负责人A', '团队负责人B'];
+            const { data: reviews } = await github.rest.pulls.listReviews({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request.number
+            });
+
+            const hasCodeOwnerApproval = reviews.some(review => 
+              codeOwners.includes(review.user.login) && review.state === 'APPROVED'
+            );
+
+            if (!hasCodeOwnerApproval) {
+              core.setFailed('需要代码所有者的批准');
+            }
